@@ -1,0 +1,47 @@
+.app {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  gap: 0.5rem;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
+
+.hangman-drawing {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.hangman-svg {
+  display: block;
+  margin: 0 auto;
+}
+
