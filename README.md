@@ -1,38 +1,90 @@
-Hangman (React)
+🔤 Hangman Game (React)
 
-A simple interactive Hangman game built with React. The game selects a random word, tracks player guesses, and updates the UI dynamically as the player reveals letters or makes mistakes. This project focuses on core functionality first, including state management, component structure, and game logic.
+A simple and interactive Hangman game built using React.
+Guess the hidden word one letter at a time, avoid too many wrong guesses, and try to win before the hangman drawing is complete.
+✨ Features
+🎮 Classic Hangman Gameplay
 
-The visual styling is still in progress — the current priority was getting the game fully working before refining the CSS and overall design.
-Features
+    Random word selected at the start of each game
 
-    Random word selection
+    Click letters to guess
 
-    Letter‑by‑letter guessing
+    Correct guesses reveal letters in the word
 
-    Win/lose detection
+    Incorrect guesses draw parts of the hangman
 
-    Dynamic UI updates based on game state
+🔁 Game Flow
 
-    Component‑based structure using React
+    Win when all letters are revealed
 
-    Clean, readable logic focused on functionality first
+    Lose when the hangman drawing is complete
 
-Tech Stack
+    Restart button to play again instantly
 
-    React
+⚛️ Built with React
 
-    JavaScript
+    Functional components
 
-    Vite
+    React Hooks for state management
 
-    CSS (styling improvements planned)
+    Clean, simple UI
 
-Status
+    Smooth re-rendering on each guess
 
-The game is fully functional. Upcoming improvements include:
+🧱 Tech Stack
 
-    Enhanced styling and layout
+    React — UI and state management
 
-    Better animations and transitions
+    CSS — styling and layout
 
-    More polished UI elements
+    JavaScript (ES6+) — game logic
+
+No backend, no external libraries — just a lightweight React project.
+📦 Installation & Setup
+bash
+
+# Clone the repo
+git clone https://github.com/your-username/react-hangman.git
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+🎮 How to Play
+
+    A random word is chosen automatically
+
+    Click letters to guess them
+
+    Correct letters appear in the word
+
+    Wrong guesses draw the hangman
+
+    Win by guessing the full word
+
+    Lose if the hangman is fully drawn
+
+    Click Restart to play again
+
+# Future Improvements
+
+Add difficulty levels (easy, medium, hard)
+
+Add animations for correct/incorrect guesses
+
+Add sound effects
+
+Add a word category system
+
+Add a scoreboard or win/loss tracking
+
+
+## 📸 Screenshots
+
+### Homepage
+![Homepage](./reposcreenshots/hangman1.png)
+
+### Game Play
+![Game Play](./reposcreenshots/hangman%202.png)
